@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -92,7 +91,7 @@ public class Main {
                     break;
                 }
 
-                case 4: { //int numOrigem, int numDestino, double v, String passwd
+                case 4: {
                     System.out.print("Digite seu Numero da Conta: ");
                     int num = scanner.nextInt();
                     scanner.nextLine();
