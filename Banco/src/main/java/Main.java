@@ -82,8 +82,8 @@ public class Main {
                     System.out.print("Digite sua senha da Conta: ");
                     String senha = scanner.nextLine();
 
-                    System.out.print("Digite o valor do depósito: ");
-                    double deposito = scanner.nextDouble();
+                    System.out.print("Digite o valor do saque: ");
+                    double saque = scanner.nextDouble();
 
                     b.saque(num, deposito, senha);
                     System.out.print(b.extrato(num, senha));
@@ -110,6 +110,7 @@ public class Main {
                     b.transfere(num, num2, valor, senha);
                     System.out.print(b.extrato(num, senha));
 
+                    break;
                 }
 
                 case 5: {
